@@ -1955,7 +1955,7 @@ table {
     <!-- LOGO -->
     <img src="imagens/logo_cerveja.png" 
          alt="Logo" 
-         style="width: 50px; height: auto; border-radius: 8px;">
+         style="width: 60px; height: auto; border-radius: 8px;">
     
     
     <!-- NOME DA EMPRESA -->
@@ -2033,7 +2033,7 @@ table {
 <button id="btnUserLogin" style="
     background: rgba(255,255,255,0.12);
     color: #0c0c0c;
-    padding: 3px 7px; /* Reduzido de 6px 10px */
+    padding: 1px 2px; /* Reduzido de 6px 10px */
     border-radius: 6px;
     border: 0;
     cursor: pointer;
@@ -2041,10 +2041,10 @@ table {
     display: flex;
     align-items: center;
     gap: 4px; /* Reduzido de 6px */
-    font-size: 12px; /* Adicionado para texto menor */
+    font-size: 9px; /* Adicionado para texto menor */
 ">
     <i class="fas fa-user" style="font-size: 12px;"></i> <!-- Reduzido de 14px -->
-    <span id="userLoginText">Entrar</span>
+    <span id="userLoginText">Logar</span>
 </button>
 
   <!------------------------------------------------------------------------------------------------->
@@ -15283,7 +15283,7 @@ function updateUserUI() {
                     <div style="display: flex; align-items: center; gap: 8px;">
                         ${window.currentUser.photoURL ? 
                             `<img src="${window.currentUser.photoURL}" alt="${window.currentUser.name}" style="width: 15px; height: 15px; border-radius: 50%;">` : 
-                            `<div style="width: 20px; height: 20px; background: #3498db; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
+                            `<div style="width: 5px; height: 5px; background: #3498db; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold;">
                                 ${window.currentUser.name ? window.currentUser.name.charAt(0).toUpperCase() : 'U'}
                             </div>`
                         }
